@@ -1,6 +1,6 @@
 {
   "name": "other-hover",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Toggle classes on DOM elements when hovering over other elements",
   "main": "dist/index.js",
   "repository": {

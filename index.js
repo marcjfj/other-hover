@@ -7,13 +7,13 @@ const otherHover = ({
   if (items.length) {
     items.forEach((item) => {
       item.addEventListener('mouseover', (e) => {
-        const otherItems = Array.from(items).filter((i) => i !== e.target);
+        const otherItems = Array.from(items).filter((i) => i !== item);
         otherItems.forEach((i) => {
           i.classList.remove(hoveredClass);
           i.classList.add(otherClass);
         });
-        e.target.classList.remove(otherClass);
-        e.target.classList.add(hoveredClass);
+        item.classList.remove(otherClass);
+        item.classList.add(hoveredClass);
       });
       item.addEventListener('mouseout', (e) => {
         items.forEach((i) => {
