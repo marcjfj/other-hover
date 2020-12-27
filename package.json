@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Toggle classes on DOM elements when hovering over other elements",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcjfj/other-hover.git"
+  },
   "scripts": {
     "dev": "parcel index.js",
     "build": "parcel build index.js",

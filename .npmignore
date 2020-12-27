@@ -1,0 +1,4 @@
+.node_modules
+.prettierrc
+.babel.config.js
+.cache
